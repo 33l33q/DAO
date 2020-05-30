@@ -1,34 +1,35 @@
-# ÇÁ·ÎÁ§Æ®¸í : **Java console application**
-> DAO patternÀ» ±â¹ÝÀ¸·Î ÇÑ Java Console Application
+# í”„ë¡œì íŠ¸ëª… : **Java console application**
+> DAO patternì„ ê¸°ë°˜ìœ¼ë¡œ í•œ Java Console Application
 
 ----------
 
-### ¿ä°ÇÁ¤¸®
-> - ¸ñÀû :  ¿¹»ó ÀÌ¿ëÀÚ 30¸í ³»¿Ü¸¦ ´ë»óÀ¸·ÎÇÑ ±ä±Þ¿¬¶ô¸Á ±¸Ãà
-> - ±¸Á¶ : DAO pattern , java¿Í DBMS¸¦ Á÷Á¢ ¿¬°áÇÏ´Â ±¸Á¶
-> - ±â´É : CRUD(ÀÔ·Â, ¼öÁ¤, »èÁ¦, ÀüÃ¼Á¶È¸, °Ë»ö, like°Ë»ö)
-> - Á¦ÀÛ ±â°£ : 14½Ã°£
+### ìš”ê±´ì •ë¦¬
+> - ëª©ì  :  ì˜ˆìƒ ì´ìš©ìž 30ëª… ë‚´ì™¸ë¥¼ ëŒ€ìƒìœ¼ë¡œí•œ ê¸´ê¸‰ì—°ë½ë§ êµ¬ì¶•
+> - êµ¬ì¡° : DAO pattern , javaì™€ DBMSë¥¼ ì§ì ‘ ì—°ê²°í•˜ëŠ” êµ¬ì¡°
+> - ê¸°ëŠ¥ : CRUD(ìž…ë ¥, ìˆ˜ì •, ì‚­ì œ, ì „ì²´ì¡°íšŒ, ê²€ìƒ‰, likeê²€ìƒ‰)
+> - ì œìž‘ ê¸°ê°„ : 14ì‹œê°„
+-----------
 
-###DATA BASE TABLE
+**DATA BASE TABLE**
 
-ÄÃ·³¸í				|	µ¥ÀÌÅÍ Å¸ÀÔ(Å©±â)		|	Á¤º¸
+ì»¬ëŸ¼ëª…				|	ë°ì´í„° íƒ€ìž…(í¬ê¸°)		|	ì •ë³´
 ----- 				|	--------							|	---
-LMEM				|	VARCHAR2(13 BYTE)	|	È¸¿ø¹øÈ£
-LNAME			|	VARCHAR2(20 BYTE)	|	¼º¸í
-LID					|	VARCHAR2(20 BYTE)	|	¾ÆÀÌµð
-LPW					|	VARCHAR2(20 BYTE)	|	ºñ¹Ð¹øÈ£
-LHP					|	VARCHAR2(20 BYTE)	|	ÀüÈ­¹øÈ£
-LBIRTH			|	VARCHAR2(8 BYTE)		|	»ý³â¿ùÀÏ
-LEMAIL			|	VARCHAR2(20 BYTE)	|	ÀÌ¸ÞÀÏ
-LPOSTNO		|	VARCHAR2(5 BYTE) 	|	¿ìÆí¹øÈ£
-LADDR				|	VARCHAR2(300 BYTE)	|	ÁÖ¼Ò
-LDELETEYN		|	VARCHAR2(1 BYTE)		|	»èÁ¦À¯¹«
-LINSERTDATE	|	DATE							|	»ý¼ºÀÏ
-LUPDATEDATE	|	DATE							|	¼öÁ¤ÀÏ
+LMEM				|	VARCHAR2(13 BYTE)	|	íšŒì›ë²ˆí˜¸
+LNAME			|	VARCHAR2(20 BYTE)	|	ì„±ëª…
+LID					|	VARCHAR2(20 BYTE)	|	ì•„ì´ë””
+LPW					|	VARCHAR2(20 BYTE)	|	ë¹„ë°€ë²ˆí˜¸
+LHP					|	VARCHAR2(20 BYTE)	|	ì „í™”ë²ˆí˜¸
+LBIRTH			|	VARCHAR2(8 BYTE)		|	ìƒë…„ì›”ì¼
+LEMAIL			|	VARCHAR2(20 BYTE)	|	ì´ë©”ì¼
+LPOSTNO		|	VARCHAR2(5 BYTE) 	|	ìš°íŽ¸ë²ˆí˜¸
+LADDR				|	VARCHAR2(300 BYTE)	|	ì£¼ì†Œ
+LDELETEYN		|	VARCHAR2(1 BYTE)		|	ì‚­ì œìœ ë¬´
+LINSERTDATE	|	DATE							|	ìƒì„±ì¼
+LUPDATEDATE	|	DATE							|	ìˆ˜ì •ì¼
 
 
-###class
-> - ¸ÞÀÎ Å¬·¡½º
+**class**
+> - ë©”ì¸ í´ëž˜ìŠ¤
 > --  **bitcamp.java142.ch5.lybjf.LdbMemberScr**
 > -- ArrayList<LdbMemberVO> selectLdbMember
 > -- ArrayList<LdbMemberVO> searchLdbMember
@@ -49,5 +50,6 @@ LUPDATEDATE	|	DATE							|	¼öÁ¤ÀÏ
 > -- **bitcamp.java142.ch5.lybjf.common.LdbConnProperty**
 
 -------------------
-###3. °³¹ßÈ¯°æ : Eclipse Neon3, jdk 1.8, oracle 11g R2
+
+###3. ê°œë°œí™˜ê²½ : Eclipse Neon3, jdk 1.8, oracle 11g R2
 
