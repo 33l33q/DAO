@@ -46,5 +46,29 @@ LUPDATEDATE	|	DATE							|	수정일
 > - Connection
 >> - **bitcamp.java142.ch5.lybjf.common.LdbConnProperty**
 
-### 2. 개발환경 : Eclipse Neon3, jdk 1.8, oracle 11g R2
+## 2. 개발환경 : Eclipse Neon3, jdk 1.8, oracle 11g R2
+
+## 3. 실행화면
+- 1. 입력
+![image](https://user-images.githubusercontent.com/62315622/83327039-e1d68700-a2b3-11ea-84f3-95bbae4428d8.png)
+
+
+- 2. 수정
+![image](https://user-images.githubusercontent.com/62315622/83327039-e1d68700-a2b3-11ea-84f3-95bbae4428d8.png)
+
+
+- 3. 삭제
+![image](https://user-images.githubusercontent.com/62315622/83326199-dcc20980-a2ac-11ea-8711-95915c4f5b42.png)
+
+
+- 4. 조회
+![image](https://user-images.githubusercontent.com/62315622/83326060-fdd62a80-a2ab-11ea-9704-4a1effd7ce49.png)
+
+
+- 5. 검색
+![image](https://user-images.githubusercontent.com/62315622/83327120-8ce74080-a2b4-11ea-880c-bc8a9651eaeb.png)
+
+
+- 6. like검색
+![image](https://user-images.githubusercontent.com/62315622/83327129-aab4a580-a2b4-11ea-8bcf-8d159d532c4c.png)
 
