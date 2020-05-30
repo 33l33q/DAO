@@ -52,10 +52,8 @@ LUPDATEDATE	|	DATE							|	수정일
 - 1. 입력
 ![image](https://user-images.githubusercontent.com/62315622/83327039-e1d68700-a2b3-11ea-84f3-95bbae4428d8.png)
 
-
 - 2. 수정
-![image](https://user-images.githubusercontent.com/62315622/83327039-e1d68700-a2b3-11ea-84f3-95bbae4428d8.png)
-
+![image](https://user-images.githubusercontent.com/62315622/83327067-15b1ac80-a2b4-11ea-97f9-518df78b91f0.png)
 
 - 3. 삭제
 ![image](https://user-images.githubusercontent.com/62315622/83326199-dcc20980-a2ac-11ea-8711-95915c4f5b42.png)
